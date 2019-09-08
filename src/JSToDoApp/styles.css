@@ -1,0 +1,39 @@
+.todoCheckbox {
+    vertical-align: middle;
+    margin: 10px;
+}
+
+span.delete{
+    float: right;
+    background: #429890;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+h4 {
+    text-align: center;
+}
+
+/* when user click on list item text it marks it out */
+.done {
+    text-decoration: line-through;
+    background: #ccc;
+}
+
+#submitItemBtn {
+    border: 1px solid #9361bf;
+    background: #429890;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
